@@ -1,14 +1,14 @@
 
 def fibonacci(n):
     """ Get n-th number of the fibonacci series. """
-    f = 0
     f2, f1 = 0, 1
+    f = f2 + f1
     if n <= 0:
         return f2
     elif n == 1:
         return f1
 
-    for _ in range(2, n):
+    for _ in range(2, n + 1):
         f = f2 + f1
         f2, f1 = f1, f
 
