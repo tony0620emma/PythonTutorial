@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f68c7af9-cd47-4cd7-b14a-abb6190146b9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>time.py</StartupFile>
+    <StartupFile>module_import3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="fibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module_import1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module_import2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module_import3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="time.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

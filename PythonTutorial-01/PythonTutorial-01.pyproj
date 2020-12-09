@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>31ebb4e1-f5d2-45b1-ab08-b11d5e1ae345</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>fibonacci.py</StartupFile>
+    <StartupFile>Capitals.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
