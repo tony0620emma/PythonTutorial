@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f68c7af9-cd47-4cd7-b14a-abb6190146b9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>module_import4.py</StartupFile>
+    <StartupFile>binary_num.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="binary_num.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="fibonacci.py">
       <SubType>Code</SubType>
     </Compile>
