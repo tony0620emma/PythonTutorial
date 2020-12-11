@@ -24,6 +24,9 @@
     <Compile Include="binary_num.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="bracket_gen.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="exercise2_base64.py">
       <SubType>Code</SubType>
     </Compile>
