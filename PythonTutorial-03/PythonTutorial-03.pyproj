@@ -36,6 +36,9 @@
     <Compile Include="file_io.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="memory_reference.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="module_import1.py">
       <SubType>Code</SubType>
     </Compile>

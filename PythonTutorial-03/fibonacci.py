@@ -1,4 +1,6 @@
 
+
+
 def fibonacci(n):
     """ Get n-th number of the fibonacci series. """
     f2, f1 = 0, 1
@@ -22,3 +24,8 @@ def fibonacci_series(n):
     for i in range(n):
         result.append(fibonacci(i))
     return result
+
+if __name__ == "__main__":
+    for i in range(10):
+        x = input("Please input something:")
+        print(f"your input in {i} is {x}")
