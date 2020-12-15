@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f68c7af9-cd47-4cd7-b14a-abb6190146b9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>file_io.py</StartupFile>
+    <StartupFile>exercise1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="bracket_gen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="exercise1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="exercise2_base64.py">
