@@ -9,3 +9,4 @@ a = b * 5
 
 # TypeError
 a = "2" + 3
+

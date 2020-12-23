@@ -6,6 +6,9 @@ base64_encode = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+
         | 11010110  |  10110100  | 01011011 |
     =>  | 110101 | 101011 | 010001 | 011011 |
             w        x         y        z
+
+            10110100 => >> 4 => 1011
+            10110000
 """
 
 ascii_string = "Hello World! This is Tony Chuang from Taiwan."
