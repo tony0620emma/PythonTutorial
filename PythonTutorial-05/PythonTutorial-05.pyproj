@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e6975ffb-f706-436f-a546-ef2df429aa2f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>inheritance.py</StartupFile>
+    <StartupFile>exercise1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,9 +25,15 @@
     <Compile Include="class_method.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="exercise1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="inheritance.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="network.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -1,6 +1,5 @@
 
 
-
 def fibonacci(n):
     """ Get n-th number of the fibonacci series. """
     f2, f1 = 0, 1
